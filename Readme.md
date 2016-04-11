@@ -1,6 +1,6 @@
 # 1shot-slideshow
 
-Starter project for using Remark in standalone scenarios (built with webpack).
+Starter project for using [Remark](https://github.com/gnab/remark) in standalone scenarios (built with webpack).
 
 ## Edit
 
