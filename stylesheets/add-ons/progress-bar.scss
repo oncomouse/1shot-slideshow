@@ -1,0 +1,26 @@
+/*	Display a line whose width indicates remaining slides
+	instead of the usual X/Y count. */
+	
+@import "~bourbon/app/assets/stylesheets/bourbon";
+
+$progress-bar-color: #F00 !default;
+
+#remark-progress {
+	height: 4px;
+	min-width: 0;
+	z-index: 1000;
+	bottom: 0;
+	left: 0;
+	top: inherit !important;
+	position: absolute;
+}
+#remark-progress-content {
+	@include transition(width 0.5s ease-in);
+	height: 100%;
+	min-width: 0;
+	background-color: $progress-bar-color;
+}
+.twitter_name {
+	left: inherit;
+	right: 20px;
+}

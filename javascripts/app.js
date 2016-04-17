@@ -4,6 +4,7 @@ var polyfills = require('./polyfills');
 var yaml = require('js-yaml');
 
 var slide_source = require('../slides.md');
+var attach_progress_bar = require('./add-ons/progress-bar.js');
 var yaml_config = {};
 
 // Pull in YAML config:
@@ -31,3 +32,4 @@ styler.styleDocument();
 document.getElementById('source').innerHTML = slide_source;
 
 var slideshow = remark.create();
+attach_progress_bar(slideshow);
