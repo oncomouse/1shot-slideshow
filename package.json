@@ -5,20 +5,20 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js ",
-	"build": "node node_modules/gulp/bin/gulp.js build"
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js ",
+    "build": "node node_modules/gulp/bin/gulp.js build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-      "bourbon": "^4.2.6",
-      "bourbon-neat": "^1.7.4",
-      "compass-mixins": "^0.12.7",
+    "compass-mixins": "^0.12.7",
     "css-loader": "^0.23.1",
     "gulp": "^3.9.1",
     "gulp-replace": "^0.5.4",
     "gulp-util": "^3.0.7",
     "js-yaml": "^3.5.5",
+    "node-bourbon": "^4.2.8",
+    "node-neat": "^1.7.2",
     "node-sass": "^3.4.2",
     "raw-loader": "^0.5.1",
     "remark": "git+https://github.com/gnab/remark.git",

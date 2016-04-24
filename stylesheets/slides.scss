@@ -1,6 +1,6 @@
-@import "~compass-mixins/lib/compass";
-@import "~bourbon/app/assets/stylesheets/bourbon";
-@import "~bourbon-neat/app/assets/stylesheets/neat";
+@import "compass";
+@import "bourbon";
+@import "neat";
 
 $base-line-height: 1.25;
 @import "typebase";

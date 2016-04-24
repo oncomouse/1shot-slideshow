@@ -1,5 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
+var neat = require('node-neat');
+var bourbon = require('node-bourbon');
 
 module.exports = {
     entry: './javascripts/app.js',
@@ -45,8 +47,12 @@ module.exports = {
     },
 	sassLoader: {
 		includePaths: [
-			'./node_modules',
+			'./node_modules/compass-mixins/lib/',
 			'./stylesheets'
-		]
+		].concat(
+			bourbon.includePaths
+		).concat(
+			neat.includePaths
+		)
 	}
 };
