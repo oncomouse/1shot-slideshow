@@ -36,7 +36,7 @@ gulp.task("webpack:build", function(callback) {
 
 gulp.task("clean-up", ["webpack:build"], function() {
 	return gulp.src([
-		'images'
+		'*images/**/*'
 	])
 	.pipe(gulp.dest('dist/'));
 });
