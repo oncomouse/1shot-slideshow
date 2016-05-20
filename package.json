@@ -13,14 +13,10 @@
   "devDependencies": {
     "compass-mixins": "^0.12.7",
     "css-loader": "^0.23.1",
-    "file-loader": "^0.8.5",
-    "font-awesome": "^4.6.1",
-    "font-awesome-webpack": "0.0.4",
     "gulp": "^3.9.1",
     "gulp-replace": "^0.5.4",
     "gulp-util": "^3.0.7",
     "js-yaml": "^3.5.5",
-    "less": "^2.7.1",
     "node-bourbon": "^4.2.8",
     "node-neat": "^1.7.2",
     "node-sass": "^3.4.2",
@@ -28,7 +24,6 @@
     "remark": "git+https://github.com/gnab/remark.git",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1",
     "webpack-zepto": "0.0.1"
