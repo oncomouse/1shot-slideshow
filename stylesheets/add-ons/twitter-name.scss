@@ -1,0 +1,29 @@
+/* Twitter Name on Each Slide */
+.twitter_name, .hashtag {
+	position: absolute;
+	bottom: 14px;
+	font-weight: 300;
+	opacity: 0.75;
+	text-align: left;
+}
+
+.twitter_name {
+	left: 20px;
+}
+
+.hashtag {
+	right: 20px;
+}
+
+.twitter-badge {
+	&:before {
+		content: "\f099";
+		
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		display: inline-block;
+	}
+}
